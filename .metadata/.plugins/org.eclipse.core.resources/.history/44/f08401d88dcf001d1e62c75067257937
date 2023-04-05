@@ -1,0 +1,15 @@
+package Com;
+
+public class StringCount {
+
+	public static void main(String[] args) {
+countString(String s1);
+
+
+
+
+
+}
+
+
+}

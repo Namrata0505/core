@@ -1,0 +1,17 @@
+package Com;
+
+public class StringCount {
+static String countString(String a){
+	return null;
+}
+	public static void main(String[] args) {
+countString("Hello");
+
+
+
+
+
+}
+
+
+}

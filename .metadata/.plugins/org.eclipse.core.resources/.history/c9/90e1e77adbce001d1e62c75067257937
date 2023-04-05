@@ -1,0 +1,24 @@
+package Com;
+
+public class Test01 {
+
+	static String checkNumber(int n) {
+		String mes= null;
+		if(n/3==0)
+		mes="hii";
+		else if (n/7==0) {
+			mes="hello";
+		}
+		else if (n/3==0 & n/7==0) {
+			mes="hiiHello";
+		}
+		return mes;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(checkNumber(21));
+		
+		
+	}
+	
+}

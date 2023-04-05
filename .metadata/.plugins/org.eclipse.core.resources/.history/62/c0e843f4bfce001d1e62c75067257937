@@ -1,0 +1,11 @@
+package test;
+
+import Com.parent;
+
+public class child extends parent{
+	static int i1=4,i2=5,i3=6;
+public static void main(String[] args) {
+	System.out.println(i1);
+	
+}
+}

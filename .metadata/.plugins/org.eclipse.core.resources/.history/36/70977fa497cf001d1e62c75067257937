@@ -1,0 +1,11 @@
+package Com;
+
+public class Helper {
+public static void main(String[] args) {
+	int[] a={1,5,2,3,6,4};
+	int in=3;
+	for(int i=3;i<=a.length;i++) {
+		System.out.println(a[i]);
+	}
+}
+}

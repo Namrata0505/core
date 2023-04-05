@@ -1,0 +1,9 @@
+package Com;
+
+public class parent {
+
+	protected static int i1=1;
+	static int i2=2;
+	static int i3=3;
+	
+}

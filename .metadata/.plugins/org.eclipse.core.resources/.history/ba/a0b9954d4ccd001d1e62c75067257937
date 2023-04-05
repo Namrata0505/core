@@ -1,0 +1,16 @@
+package com;
+
+public class StringReverse {
+
+	
+	public static void main(String[] args) {
+		String s1="United States of America";
+	System.out.println("before reverse the string "+s1);
+	System.out.println("after reverse the string "+ reverseString(s1));
+}
+
+	static String reverseString(String s1) {
+		
+		return null;
+	}
+}

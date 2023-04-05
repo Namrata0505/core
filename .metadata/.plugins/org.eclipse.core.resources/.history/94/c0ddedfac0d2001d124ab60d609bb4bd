@@ -1,0 +1,12 @@
+package Com;
+
+public class parent {
+
+	protected static String i1="1";
+	static int i2=2;
+	static int i3=3;
+	
+	
+	
+	
+}

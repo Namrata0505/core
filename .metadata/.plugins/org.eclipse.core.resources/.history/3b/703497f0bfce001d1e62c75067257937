@@ -1,0 +1,6 @@
+package Com;
+
+public class parent {
+
+	static int i1=1,i2=2,i3=3;
+}

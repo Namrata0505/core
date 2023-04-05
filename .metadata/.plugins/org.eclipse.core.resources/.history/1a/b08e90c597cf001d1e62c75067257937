@@ -1,0 +1,24 @@
+package Com;
+
+public class StringCount {
+static void countString(String a){
+	for(int i=0;i<a.length();i++) {
+		char ch= a.charAt(i);
+			
+	
+	}
+	
+	
+	
+}
+	public static void main(String[] args) {
+countString("Hello");
+
+
+
+
+
+}
+
+
+}

@@ -1,0 +1,23 @@
+package com;
+
+import java.util.stream.IntStream;
+
+public class StringReverse {
+
+	
+	public static void main(String[] args) {
+		String s1="United States of America";
+	System.out.println("before reverse the string "+s1);
+	System.out.println("after reverse the string "+ reverseString(s1));
+}
+
+	static String reverseString(String s1) {
+		String[] s2= s1.split(" ");
+		for(int i=0; i<s2.length;i++) {
+			IntStream ch= s2[i].chars();
+			System.out.println(ch);
+		System.out.println(s2[i]);
+		}
+		return null;
+	}
+}

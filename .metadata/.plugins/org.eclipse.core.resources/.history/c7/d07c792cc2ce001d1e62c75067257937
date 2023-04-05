@@ -1,0 +1,21 @@
+package test;
+
+import Com.parent;
+
+public class child extends parent{
+	static int i1=4,i2=5,i3=6;
+	final static int[] numbers = new int[10];
+public static void main(String[] args) {
+	System.out.println(parent.i1);
+	
+			for (int i = 1; i < numbers.length; i++)
+			{
+			final int num = numbers[i];
+			System.out.println(num);
+			
+			}
+			}
+
+
+
+}

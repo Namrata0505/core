@@ -1,0 +1,26 @@
+package Com;
+
+public class Test01 {
+
+	static String checkNumber(int n) {
+		
+		if(n/3==0)
+		return "hii";
+		else if (n/7==0) {
+			return "hello";
+		}
+		else if (n/3==0 & n/7==0) {
+			return "hiiHello";
+		}
+		else {
+		return null;
+		}		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(checkNumber(21));
+		
+		
+	}
+	
+}

@@ -1,0 +1,44 @@
+package com;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		secondHightest();
+		primeNum(17);
+	 }
+	static void secondHightest() {
+		int[] arr= {132,23,3,45,56};
+		int max=0;
+		int secmax=0;
+		for(int i=0;i<arr.length;i++) {
+			
+			if(arr[i]>max) {
+				secmax=max;
+				max=arr[i];
+			}
+			else if(arr[i]>secmax) {
+				secmax=arr[i];
+			}
+		}  
+		System.out.println(max +" "+secmax);
+	}
+	static void primeNum(int n) {
+		int num,flag=0;
+		num=n/2;
+	if(n==0||n==1) {
+		System.out.println("number is not prime");
+	}
+	else {
+		for(int i=2;i<=num;i++) {
+			 if(num%i==0) {
+				 flag=1;
+				 System.out.println("not prime");
+				 break;
+			 }	
+		}
+		if(flag==0) {
+			System.out.println("prime number");
+		}
+	}
+}
+	}
